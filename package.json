@@ -1,0 +1,43 @@
+{
+  "name": "thc-eth-tools",
+  "version": "0.1.0",
+  "description": "Useful cli tools for ethereum network",
+  "main": "index.js",
+  "scripts": {
+    "format": "standard --fix",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "NODE_ENV=test mocha ./test"
+  },
+  "bin": {
+    "thc-eth-tools": "bin/thc.eth.tools.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThriveCoin/thc-eth-tools-js.git"
+  },
+  "keywords": [
+    "thc",
+    "eth",
+    "tools",
+    "cli"
+  ],
+  "author": {
+    "name": "vigan.abd",
+    "email": "vigan.abd@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThriveCoin/thc-eth-tools-js/issues"
+  },
+  "homepage": "https://github.com/ThriveCoin/thc-eth-tools-js#readme",
+  "dependencies": {
+    "ethereumjs-wallet": "^1.0.2",
+    "prompt": "^1.2.0",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "standard": "^16.0.4"
+  }
+}
