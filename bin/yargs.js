@@ -6,7 +6,7 @@ const yargs = require('yargs')
   .command(
     'export-keystore',
     'exports public and private key from v3 keystore file',
-    (y) => y.option('file', { alias: 'f', type: 'string', esc: 'keystore file', demandOption: true })
+    (y) => y.option('file', { alias: 'f', type: 'string', desc: 'keystore file', demandOption: true })
   )
   .demandCommand()
   .recommendCommands()

@@ -1,4 +1,8 @@
+#!/usr/bin/env node
+
 'use strict'
+
+process.argv[1] = 'thc-eth-tools' // fix usage name in yargs
 
 const prompt = require('prompt')
 const { cmds, yargs } = require('./yargs')
