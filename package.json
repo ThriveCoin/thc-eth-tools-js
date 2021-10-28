@@ -1,6 +1,6 @@
 {
   "name": "@thrivecoin/thc-eth-tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Useful cli tools for ethereum network",
   "main": "index.js",
   "private": false,
