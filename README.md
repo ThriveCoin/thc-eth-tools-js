@@ -10,12 +10,12 @@ Currently supported features are:
 
 For usage as library run:
 ```console
-npm install thc-eth-tools --save-prod
+npm install @thrivecoin/thc-eth-tools --save-prod
 ```
 
 For usage as cli tool run:
 ```console
-npm install thc-eth-tools --global
+npm install @thrivecoin/thc-eth-tools --global
 ```
 
 
